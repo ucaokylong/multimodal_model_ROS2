@@ -1,0 +1,4 @@
+[console_scripts]
+camera_publisher = sam2_ros.camera_publisher:main
+sam2_model_node = sam2_ros.sam2_model_node:main
+

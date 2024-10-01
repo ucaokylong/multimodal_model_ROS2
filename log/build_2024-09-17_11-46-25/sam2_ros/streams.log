@@ -1,0 +1,123 @@
+[0.619s] Invoking command in '/home/longuzi/deploy_sam2_ws/build/sam2_ros': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/longuzi/deploy_sam2_ws/build/sam2_ros/build
+[0.891s] running develop
+[0.891s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.891s]   warnings.warn(
+[1.090s] Removing /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2-ros.egg-link (link to .)
+[1.110s] Invoked command in '/home/longuzi/deploy_sam2_ws/build/sam2_ros' returned '0': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/longuzi/deploy_sam2_ws/build/sam2_ros/build
+[1.112s] Invoking command in '/home/longuzi/deploy_sam2_ws/src/sam2_ros': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sam2_ros build --build-base /home/longuzi/deploy_sam2_ws/build/sam2_ros/build install --record /home/longuzi/deploy_sam2_ws/build/sam2_ros/install.log --single-version-externally-managed install_data --force
+[1.364s] running egg_info
+[1.365s] writing ../../build/sam2_ros/sam2_ros.egg-info/PKG-INFO
+[1.365s] writing dependency_links to ../../build/sam2_ros/sam2_ros.egg-info/dependency_links.txt
+[1.365s] writing entry points to ../../build/sam2_ros/sam2_ros.egg-info/entry_points.txt
+[1.366s] writing requirements to ../../build/sam2_ros/sam2_ros.egg-info/requires.txt
+[1.366s] writing top-level names to ../../build/sam2_ros/sam2_ros.egg-info/top_level.txt
+[1.368s] reading manifest file '../../build/sam2_ros/sam2_ros.egg-info/SOURCES.txt'
+[1.369s] writing manifest file '../../build/sam2_ros/sam2_ros.egg-info/SOURCES.txt'
+[1.369s] running build
+[1.369s] running build_py
+[1.369s] copying sam2_ros/sam2_processor.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros
+[1.370s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_configs
+[1.370s] copying sam2_ros/sam2_configs/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_configs
+[1.370s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.370s] copying sam2_ros/sam2/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.371s] copying sam2_ros/sam2/sam2_image_predictor.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.371s] copying sam2_ros/sam2/build_sam.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.371s] copying sam2_ros/sam2/sam2_video_predictor.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.371s] copying sam2_ros/sam2/automatic_mask_generator.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2
+[1.371s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/sam2_utils.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/memory_encoder.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/position_encoding.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/sam2_base.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.371s] copying sam2_ros/sam2/modeling/memory_attention.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling
+[1.372s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils
+[1.372s] copying sam2_ros/sam2/utils/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils
+[1.372s] copying sam2_ros/sam2/utils/misc.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils
+[1.372s] copying sam2_ros/sam2/utils/transforms.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils
+[1.372s] copying sam2_ros/sam2/utils/amg.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils
+[1.372s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones
+[1.372s] copying sam2_ros/sam2/modeling/backbones/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones
+[1.372s] copying sam2_ros/sam2/modeling/backbones/utils.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones
+[1.372s] copying sam2_ros/sam2/modeling/backbones/image_encoder.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones
+[1.373s] copying sam2_ros/sam2/modeling/backbones/hieradet.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones
+[1.373s] creating /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam
+[1.373s] copying sam2_ros/sam2/modeling/sam/mask_decoder.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam
+[1.373s] copying sam2_ros/sam2/modeling/sam/__init__.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam
+[1.373s] copying sam2_ros/sam2/modeling/sam/prompt_encoder.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam
+[1.373s] copying sam2_ros/sam2/modeling/sam/transformer.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam
+[1.374s] running install
+[1.374s] running install_lib
+[1.375s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+[1.375s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+[1.375s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_configs
+[1.375s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_configs/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_configs
+[1.376s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_processor.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+[1.376s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.376s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.376s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/sam2_image_predictor.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.376s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.376s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.377s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones/utils.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones/image_encoder.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/backbones/hieradet.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones
+[1.377s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam/mask_decoder.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam
+[1.377s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam/prompt_encoder.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam/transformer.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam2_utils.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/memory_encoder.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/position_encoding.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/sam2_base.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/modeling/memory_attention.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/build_sam.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/sam2_video_predictor.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.378s] creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils/misc.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils
+[1.378s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils/transforms.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils
+[1.379s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/utils/amg.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils
+[1.379s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2/automatic_mask_generator.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2
+[1.379s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/camera_publisher.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+[1.379s] copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_model_node.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+[1.380s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/__init__.py to __init__.cpython-310.pyc
+[1.380s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_configs/__init__.py to __init__.cpython-310.pyc
+[1.381s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_processor.py to sam2_processor.cpython-310.pyc
+[1.382s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/__init__.py to __init__.cpython-310.pyc
+[1.382s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/sam2_image_predictor.py to sam2_image_predictor.cpython-310.pyc
+[1.384s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/__init__.py to __init__.cpython-310.pyc
+[1.384s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones/__init__.py to __init__.cpython-310.pyc
+[1.384s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones/utils.py to utils.cpython-310.pyc
+[1.385s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones/image_encoder.py to image_encoder.cpython-310.pyc
+[1.385s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/backbones/hieradet.py to hieradet.cpython-310.pyc
+[1.387s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam/mask_decoder.py to mask_decoder.cpython-310.pyc
+[1.388s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam/__init__.py to __init__.cpython-310.pyc
+[1.388s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam/prompt_encoder.py to prompt_encoder.cpython-310.pyc
+[1.389s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam/transformer.py to transformer.cpython-310.pyc
+[1.390s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam2_utils.py to sam2_utils.cpython-310.pyc
+[1.391s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/memory_encoder.py to memory_encoder.cpython-310.pyc
+[1.392s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/position_encoding.py to position_encoding.cpython-310.pyc
+[1.394s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/sam2_base.py to sam2_base.cpython-310.pyc
+[1.397s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/modeling/memory_attention.py to memory_attention.cpython-310.pyc
+[1.397s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/build_sam.py to build_sam.cpython-310.pyc
+[1.398s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/sam2_video_predictor.py to sam2_video_predictor.cpython-310.pyc
+[1.401s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils/__init__.py to __init__.cpython-310.pyc
+[1.402s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils/misc.py to misc.cpython-310.pyc
+[1.403s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils/transforms.py to transforms.cpython-310.pyc
+[1.403s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/utils/amg.py to amg.cpython-310.pyc
+[1.405s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2/automatic_mask_generator.py to automatic_mask_generator.cpython-310.pyc
+[1.407s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/camera_publisher.py to camera_publisher.cpython-310.pyc
+[1.407s] byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_model_node.py to sam2_model_node.cpython-310.pyc
+[1.408s] running install_data
+[1.408s] copying resource/sam2_ros -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/ament_index/resource_index/packages
+[1.408s] copying package.xml -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/sam2_ros
+[1.409s] running install_egg_info
+[1.410s] Copying ../../build/sam2_ros/sam2_ros.egg-info to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros-0.0.0-py3.10.egg-info
+[1.411s] running install_scripts
+[1.431s] Installing camera_publisher script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.431s] Installing sam2_segmentation_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.432s] writing list of installed files to '/home/longuzi/deploy_sam2_ws/build/sam2_ros/install.log'
+[1.451s] Invoked command in '/home/longuzi/deploy_sam2_ws/src/sam2_ros' returned '0': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sam2_ros build --build-base /home/longuzi/deploy_sam2_ws/build/sam2_ros/build install --record /home/longuzi/deploy_sam2_ws/build/sam2_ros/install.log --single-version-externally-managed install_data --force

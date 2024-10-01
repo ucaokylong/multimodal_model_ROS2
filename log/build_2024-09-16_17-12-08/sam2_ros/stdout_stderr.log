@@ -1,0 +1,36 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2-ros.egg-link (link to .)
+running egg_info
+writing ../../build/sam2_ros/sam2_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/sam2_ros/sam2_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/sam2_ros/sam2_ros.egg-info/entry_points.txt
+writing requirements to ../../build/sam2_ros/sam2_ros.egg-info/requires.txt
+writing top-level names to ../../build/sam2_ros/sam2_ros.egg-info/top_level.txt
+reading manifest file '../../build/sam2_ros/sam2_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/sam2_ros/sam2_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sam2_ros/sam2_processor.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros
+copying sam2_ros/sam2_model_node.py -> /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros
+running install
+running install_lib
+creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/__init__.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_processor.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/camera_publisher.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+copying /home/longuzi/deploy_sam2_ws/build/sam2_ros/build/lib/sam2_ros/sam2_model_node.py -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros
+byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_processor.py to sam2_processor.cpython-310.pyc
+byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/camera_publisher.py to camera_publisher.cpython-310.pyc
+byte-compiling /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros/sam2_model_node.py to sam2_model_node.cpython-310.pyc
+running install_data
+copying resource/sam2_ros -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/sam2_ros
+running install_egg_info
+Copying ../../build/sam2_ros/sam2_ros.egg-info to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+Installing sam2_segmentation_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+writing list of installed files to '/home/longuzi/deploy_sam2_ws/build/sam2_ros/install.log'

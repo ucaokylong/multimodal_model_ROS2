@@ -1,0 +1,10 @@
+Pillow
+cv_bridge
+hydra
+matplotlib
+numpy
+opencv-python
+setuptools
+sounddevice
+torch
+transformers

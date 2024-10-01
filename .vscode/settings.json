@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/longuzi/deploy_sam2_ws/build/sam2_ros",
+        "/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages",
+        "/home/longuzi/ros2_learn_ws/build/my_robot_controller",
+        "/home/longuzi/ros2_learn_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_srv/local/lib/python3.10/dist-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_operator_control/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_msgs/local/lib/python3.10/dist-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_imaging/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_camera/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_action/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/longuzi/deploy_sam2_ws/build/sam2_ros",
+        "/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages",
+        "/home/longuzi/ros2_learn_ws/build/my_robot_controller",
+        "/home/longuzi/ros2_learn_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_srv/local/lib/python3.10/dist-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_operator_control/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_msgs/local/lib/python3.10/dist-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_imaging/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_camera/lib/python3.10/site-packages",
+        "/home/longuzi/tomo2-imaging/install/tomo_action/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

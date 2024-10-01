@@ -1,0 +1,23 @@
+[0.666s] Invoking command in '/home/longuzi/deploy_sam2_ws/build/sam2_ros': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/longuzi/deploy_sam2_ws/build/sam2_ros/build --no-deps symlink_data
+[0.952s] running develop
+[0.952s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.953s]   warnings.warn(
+[1.154s] running egg_info
+[1.154s] writing sam2_ros.egg-info/PKG-INFO
+[1.154s] writing dependency_links to sam2_ros.egg-info/dependency_links.txt
+[1.155s] writing entry points to sam2_ros.egg-info/entry_points.txt
+[1.155s] writing requirements to sam2_ros.egg-info/requires.txt
+[1.155s] writing top-level names to sam2_ros.egg-info/top_level.txt
+[1.157s] reading manifest file 'sam2_ros.egg-info/SOURCES.txt'
+[1.158s] writing manifest file 'sam2_ros.egg-info/SOURCES.txt'
+[1.160s] running build_ext
+[1.160s] Creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2-ros.egg-link (link to .)
+[1.161s] Installing camera_publisher script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.161s] Installing florence_input_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.161s] Installing florence_model_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.161s] Installing sam2_execution_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.161s] Installing sam2_segmentation_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+[1.162s] 
+[1.162s] Installed /home/longuzi/deploy_sam2_ws/build/sam2_ros
+[1.162s] running symlink_data
+[1.185s] Invoked command in '/home/longuzi/deploy_sam2_ws/build/sam2_ros' returned '0': PYTHONPATH=/home/longuzi/deploy_sam2_ws/build/sam2_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/longuzi/deploy_sam2_ws/build/sam2_ros/build --no-deps symlink_data

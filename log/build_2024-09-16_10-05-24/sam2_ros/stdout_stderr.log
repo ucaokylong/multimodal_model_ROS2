@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing sam2_ros.egg-info/PKG-INFO
+writing dependency_links to sam2_ros.egg-info/dependency_links.txt
+writing entry points to sam2_ros.egg-info/entry_points.txt
+writing requirements to sam2_ros.egg-info/requires.txt
+writing top-level names to sam2_ros.egg-info/top_level.txt
+reading manifest file 'sam2_ros.egg-info/SOURCES.txt'
+writing manifest file 'sam2_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/python3.10/site-packages/sam2-ros.egg-link (link to .)
+Installing camera_publisher script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+Installing sam2_model_node script to /home/longuzi/deploy_sam2_ws/install/sam2_ros/lib/sam2_ros
+
+Installed /home/longuzi/deploy_sam2_ws/build/sam2_ros
+running symlink_data
+symbolically linking /home/longuzi/deploy_sam2_ws/build/sam2_ros/resource/sam2_ros -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/ament_index/resource_index/packages
+symbolically linking /home/longuzi/deploy_sam2_ws/build/sam2_ros/package.xml -> /home/longuzi/deploy_sam2_ws/install/sam2_ros/share/sam2_ros

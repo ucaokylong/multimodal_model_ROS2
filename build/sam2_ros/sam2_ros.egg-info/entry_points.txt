@@ -1,0 +1,7 @@
+[console_scripts]
+camera_publisher = sam2_ros.camera_publisher:main
+florence_input_node = sam2_ros.florence_input_node:main
+florence_model_node = sam2_ros.florence_model_node:main
+sam2_execution_node = sam2_ros.sam2_execution_node:main
+sam2_segmentation_node = sam2_ros.sam2_processor:main
+
