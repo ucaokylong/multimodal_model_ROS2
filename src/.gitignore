@@ -1,0 +1,9 @@
+# src/sam2_ros/segment_anything_2/checkpoints/sam2_hiera_base_plus.pt
+# src/sam2_ros/segment_anything_2/checkpoints/sam2_hiera_large.pt
+# src/sam2_ros/segment_anything_2/checkpoints/sam2_hiera_small.pt
+# src/sam2_ros/segment_anything_2/checkpoints/sam2_hiera_tiny.pt
+src/sam2_ros/segment_anything_2
+src/sam2_ros/sam2_ros/checkpoints/sam2_hiera_tiny.pt
+src/sam2_ros/sam2_ros/checkpoints/sam2_hiera_small.pt
+src/sam2_ros/sam2_ros/checkpoints/sam2_hiera_large.pt
+src/sam2_ros/sam2_ros/checkpoints/sam2_hiera_base_plus.pt
