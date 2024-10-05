@@ -1,17 +1,8 @@
-# multimodal_model_ROS2
-## Deploy multimodal model into Ros2 system
-- Segmantation_anything_2_model
-- Florence2 multimodel
-- Whisper model
-- Finetune Florence2 with OD task for specific object
-- Build UI
-- Ros2 workflow
-- Camera Publisher node
+# Multimodal_model_ROS2
 
+## Deploy Multimodal Model into ROS2 System
 
-# CV Project with ROS2 and Florence-2
-
-This project is a computer vision application using ROS2, OpenCV, and the Florence-2 model. It includes nodes for capturing camera frames, processing audio input, executing commands, and performing image segmentation.
+This project involves deploying a multimodal model into a ROS2 system, integrating several advanced models and functionalities, including segmentation, object detection, and speech recognition. The project is structured into multiple ROS2 nodes, each responsible for a specific task.
 
 ## Table of Contents
 
@@ -25,7 +16,15 @@ This project is a computer vision application using ROS2, OpenCV, and the Floren
 
 ## Project Overview
 
-This project integrates several components to perform tasks such as capturing images from a camera, processing audio input for speech recognition, and using the Florence-2 model for image processing tasks. The project is structured into multiple ROS2 nodes, each responsible for a specific task.
+This project integrates the following components:
+
+- **Segmentation Anything 2 Model**: Utilizes the SAM2 model for image segmentation.
+- **Florence2 Multimodal Model**: Processes images and text inputs for various tasks.
+- **Whisper Model**: Performs speech recognition to convert audio input into text.
+- **Finetune Florence2 with OD Task**: Customizes the Florence2 model for object detection tasks specific to certain objects.
+- **Build UI**: Provides a user interface for interacting with the system.
+- **ROS2 Workflow**: Implements a workflow using ROS2 nodes for seamless integration.
+- **Camera Publisher Node**: Captures and publishes frames from a camera.
 
 ## Installation
 
@@ -39,3 +38,14 @@ This project integrates several components to perform tasks such as capturing im
 - SoundDevice
 - Matplotlib
 - Hydra
+
+### Setup
+
+1. Clone the repository
+2. Install the required Python packages
+3. Ensure ROS2 is sourced:
+'''
+bash
+source /opt/ros/humble/setup.bash
+'''
+4.Build the ROS2 workspace:
