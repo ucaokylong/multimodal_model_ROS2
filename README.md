@@ -61,31 +61,31 @@ colcon build
 1. **Camera Publisher Node**: Publishes frames from the camera.
 ```
 bash
-ros2 run your_package camera_publisher
+ros2 run sam2_ros camera_publisher
 ```
 
 2. **Florence Input Node**: Handles user input for task selection and text input.
 ```
 bash
-ros2 run your_package florence_input_node
+ros2 run sam2_ros florence_input_node
 ```
 
 3. **Florence Model Node**: Processes images using the Florence2 model.
 ```
 bash
-ros2 run your_package florence_model_node
+ros2 run sam2_ros florence_model_node
 ```
 
 4. **Sam2 Execution Node**: Sends execution commands.
 ```
 bash
-ros2 run your_package sam2_execution_node
+ros2 run sam2_ros sam2_execution_node
 ```
 
 5. **Sam2 Segmentation Node**: Performs image segmentation using the SAM2 model.
 ```
 bash
-ros2 run your_package sam2_processor
+ros2 run sam2_ros sam2_processor
 ```
 
 ### Configuration
