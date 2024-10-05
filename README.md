@@ -44,8 +44,8 @@ This project integrates the following components:
 1. Clone the repository
 2. Install the required Python packages
 3. Ensure ROS2 is sourced:
-'''
+```
 bash
 source /opt/ros/humble/setup.bash
-'''
+```
 4.Build the ROS2 workspace:
